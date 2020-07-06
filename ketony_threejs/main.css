@@ -1,0 +1,140 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    color: white;
+    text-align: center;
+}
+
+div {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+h1 {
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+    font-size: 1.5rem;
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: purple;
+}
+
+canvas {
+    margin: 0 auto;
+}
+
+#c {
+    position: absolute;
+    margin-top: 100;
+    width: 720px;
+    height: 420px;
+    left: 100px;
+    right: auto;
+    top: 20px
+}
+
+button {
+    display: block;
+    position: absolute;
+    left: 120px;
+    top: 40px;
+    width: 100px;
+    height: 50px;
+
+
+}
+
+#ozone {
+    
+    position: absolute;
+    left: 120px;
+    top: 200px;
+    width: 50px;
+    height: 50px;
+}
+
+#carbon {
+    position: absolute;
+    left: 120px;
+    top: 260px;
+    width: 50px;
+    height: 50px;
+}
+
+#hydro {
+    position: absolute;
+    left: 120px;
+    top: 320px;
+    width: 50px;
+    height: 50px;
+}
+
+#r {
+    position: absolute;
+    left: 120px;
+    top: 380px;
+    width: 50px;
+    height: 50px;
+}
+
+#ozone_text {
+    position: absolute;
+    left: 170px;
+    top: 200px;
+    width: 50px;
+    height: 50px;
+    color: black;
+}
+
+#carbon_text {
+    position: absolute;
+    left: 170px;
+    top: 260px;
+    width: 50px;
+    height: 50px;
+    color: black;
+    text-align: left;
+    margin-left: 5px;
+}
+
+#hydro_text {
+    position: absolute;
+    left: 170px;
+    top: 320px;
+    width: 50px;
+    height: 50px;
+    color: black;
+}
+
+#r_text {
+    position: absolute;
+    left: 170px;
+    top: 380px;
+    margin-left: 5px;
+    color:black;
+    
+}
+
+#e {
+     display: block;
+    position: absolute;
+    left: 500px;
+    top: 380px;
+    width: 100px;
+    height: 50px;
+}
+
+#f {
+     display: block;
+    position: absolute;
+    left: 610px;
+    top: 380px;
+    width: 100px;
+    height: 50px;
+}

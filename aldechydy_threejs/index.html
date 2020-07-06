@@ -1,0 +1,42 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+
+    <title>The HTML5 Herald</title>
+    <meta name="description" content="The HTML5 Herald">
+    <meta name="author" content="SitePoint">
+
+    <link rel="stylesheet" href="main.css">
+    <script src="https://threejsfundamentals.org/threejs/resources/threejs/r105/three.min.js"></script>
+    <script src="https://threejsfundamentals.org/threejs/resources/threejs/r105/js/controls/OrbitControls.js"></script>
+    <script src="https://threejsfundamentals.org/threejs/resources/threejs/r105/js/loaders/LoaderSupport.js"></script>
+    <script src="https://threejsfundamentals.org/threejs/resources/threejs/r105/js/loaders/OBJLoader2.js"></script>
+ 
+    <script src="https://threejsfundamentals.org/threejs/resources/threejs/r105/js/loaders/MTLLoader.js"></script>
+</head>
+
+<body>
+
+    <div>
+        
+        <canvas id="c"> <button onclick=zmiana()> klik</button></canvas>
+        <button id="d" onclick=zmiana()> grupa aldehydowa</button>
+        <img id="ozone" src="tlen.png"/>
+        <img id="carbon" src="carbon.png"/>
+        <img id="hydro" src="wodor.png"/>
+        <img id="r" src="R.png"/>
+        <p id="ozone_text">atom tlenu</p>
+        <p id="carbon_text">atom węgla</p>
+        <p id="hydro_text">atom wodoru</p>
+        <p id="r_text">reszta alkilowa, arylowa lub atom wodoru</p>
+        <button id="e" onclick=alifatyczny()>aldehyd alifatyczny</button>
+        <button id="f" onclick=aromatyczny()>aldehyd aromatyczny</button>
+    </div>
+    <div id="menu">
+        
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
